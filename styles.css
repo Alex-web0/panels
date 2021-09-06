@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        background-color: hsl(0, 0%, 98%);
+        margin: 0;
+        height: 1080px;
+        
+    }
+    
+    .head1 {
+        margin-top: 80px;
+        font-weight: 200;
+        font-size: 32px;
+        margin-bottom: -2px;
+        color: hsl(234, 12%, 34%);
+        letter-spacing: 1px;
+    }
+    
+    .head2 {
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 32px;
+        color: hsl(234, 12%, 34%);
+        letter-spacing: 1.1px;
+    }
+    
+    .head-stats {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: hsl(229, 6%, 66%);
+        margin-bottom: 70px;
+    
+    }
+    
+    .team-builder {
+        padding: 30px;
+        border-top: solid hsl(0, 78%, 62%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: 0 auto 0 auto;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    
+    .house {
+        position: absolute;
+        right: 40px;
+        bottom: 38px;
+    }
+    .title{
+     color: hsl(234, 12%, 34%);
+     font-size: 20px;
+     text-align: left;
+     margin-bottom: 0px;
+    }
+    .sub-title{
+     color: hsl(229, 6%, 66%);
+     font-size: 12px;
+     text-align: left;
+     line-height: 1.67;
+     margin-top: 10px;
+     
+    }
+    
+    .karma {
+        padding: 30px;
+        border-top: solid hsl(34, 97%, 64%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: 0 auto 0 auto;
+        position: relative;
+    }
+    .calculator {
+        padding: 30px;
+        border-top: solid hsl(212, 86%, 64%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: auto 0 auto 0;
+        position: relative;
+        left: 1200px;
+        bottom: 450px;
+    }
+    .supervisor {
+        padding: 30px;
+        border-top: solid hsl(180, 62%, 55%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: auto 0 auto 0;
+        position: relative;
+        left: 300px;
+        bottom: 724px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+@media (orientation:portrait), (max-height:600px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        background-color: hsl(0, 0%, 98%);
+        margin: 0;
+        width: auto;
+        
+        
+        
+    }
+    
+    .head1 {
+        margin-top: 80px;
+        font-weight: 200;
+        font-size: 24px;
+        margin-bottom: -2px;
+        color: hsl(234, 12%, 34%);
+        letter-spacing: 1px;
+    }
+    
+    .head2 {
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: hsl(234, 12%, 34%);
+        letter-spacing: 1.1px;
+    }
+    
+    .head-stats {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: hsl(229, 6%, 66%);
+        margin-bottom: 70px;
+    
+    }
+    
+    .team-builder {
+        padding: 20px;
+        border-top: solid hsl(0, 78%, 62%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin-bottom: 40px;
+        margin: 0 auto 0 auto;
+        position: static;
+        margin-bottom: 45px;
+    }
+    
+    .house {
+        position: relative;
+        left: 125px;
+        margin-top: 70px;
+
+    }
+    .title{
+     color: hsl(234, 12%, 34%);
+     font-size: 20px;
+     text-align: left;
+     margin-bottom: 0px;
+    }
+    .sub-title{
+     color: hsl(229, 6%, 66%);
+     font-size: 12px;
+     text-align: left;
+     line-height: 1.67;
+     margin-top: 10px;
+     
+    }
+    
+    .karma {
+        padding: 20px;
+        border-top: solid hsl(34, 97%, 64%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: 0 auto 0 auto;
+        position: static;
+        margin-bottom: 45px;
+    }
+    .calculator {
+        padding: 20px;
+        border-top: solid hsl(212, 86%, 64%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: 0 auto 0 auto;
+        position: static;
+        margin-bottom: 45px;
+       
+    }
+    .supervisor {
+        padding: 20px;
+        border-top: solid hsl(180, 62%, 55%);
+        border-left: hidden;
+        border-right: hidden;
+        border-radius: 10px;
+        background-color: white;
+        width: 340px;
+        height: 210px;
+        box-shadow: 8px 13px 18px rgba(128, 128, 128, 0.239);
+        margin: 0 auto 0 auto;
+        position: static;
+        margin-bottom: 45px;
+    }}
